@@ -1,0 +1,240 @@
+good	test_rand_single.pl	1	102	
+good	test_rand_single.pl	1	102	-c
+good	test_rand_single.pl	1	102	-e
+good	test_rand_single.pl	1	102	-k
+good	test_rand_single.pl	1	102	-c -e
+good	test_rand_single.pl	1	102	-c -k
+good	test_rand_single.pl	1	102	-e -k
+good	test_rand_single.pl	1	102	-c -e -k
+good	test_rand_single.pl	1	102	-f
+good	test_rand_single.pl	1	102	-f -c
+good	test_rand_single.pl	1	102	-f -e
+good	test_rand_single.pl	1	102	-f -k
+good	test_rand_single.pl	1	102	-f -c -e
+good	test_rand_single.pl	1	102	-f -c -k
+good	test_rand_single.pl	1	102	-f -e -k
+good	test_rand_single.pl	1	102	-f -c -e -k
+good	test_rand_single.pl	1	102	-g
+good	test_rand_single.pl	1	102	-g -c
+good	test_rand_single.pl	1	102	-g -e
+good	test_rand_single.pl	1	102	-g -k
+good	test_rand_single.pl	1	102	-g -c -e
+good	test_rand_single.pl	1	102	-g -c -k
+good	test_rand_single.pl	1	102	-g -e -k
+good	test_rand_single.pl	1	102	-g -c -e -k
+good	test_rand_single.pl	2	123	
+good	test_rand_single.pl	2	123	-c
+good	test_rand_single.pl	2	123	-e
+good	test_rand_single.pl	2	123	-k
+good	test_rand_single.pl	2	123	-c -e
+good	test_rand_single.pl	2	123	-c -k
+good	test_rand_single.pl	2	123	-e -k
+good	test_rand_single.pl	2	123	-c -e -k
+good	test_rand_single.pl	2	123	-f
+good	test_rand_single.pl	2	123	-f -c
+good	test_rand_single.pl	2	123	-f -e
+good	test_rand_single.pl	2	123	-f -k
+good	test_rand_single.pl	2	123	-f -c -e
+good	test_rand_single.pl	2	123	-f -c -k
+good	test_rand_single.pl	2	123	-f -e -k
+good	test_rand_single.pl	2	123	-f -c -e -k
+good	test_rand_single.pl	2	123	-g
+good	test_rand_single.pl	2	123	-g -c
+good	test_rand_single.pl	2	123	-g -e
+good	test_rand_single.pl	2	123	-g -k
+good	test_rand_single.pl	2	123	-g -c -e
+good	test_rand_single.pl	2	123	-g -c -k
+good	test_rand_single.pl	2	123	-g -e -k
+good	test_rand_single.pl	2	123	-g -c -e -k
+good	test_rand_single.pl	3	142	
+good	test_rand_single.pl	3	142	-c
+good	test_rand_single.pl	3	142	-e
+good	test_rand_single.pl	3	142	-k
+good	test_rand_single.pl	3	142	-c -e
+good	test_rand_single.pl	3	142	-c -k
+good	test_rand_single.pl	3	142	-e -k
+good	test_rand_single.pl	3	142	-c -e -k
+good	test_rand_single.pl	3	142	-f
+good	test_rand_single.pl	3	142	-f -c
+good	test_rand_single.pl	3	142	-f -e
+good	test_rand_single.pl	3	142	-f -k
+good	test_rand_single.pl	3	142	-f -c -e
+good	test_rand_single.pl	3	142	-f -c -k
+good	test_rand_single.pl	3	142	-f -e -k
+good	test_rand_single.pl	3	142	-f -c -e -k
+good	test_rand_single.pl	3	142	-g
+good	test_rand_single.pl	3	142	-g -c
+good	test_rand_single.pl	3	142	-g -e
+good	test_rand_single.pl	3	142	-g -k
+good	test_rand_single.pl	3	142	-g -c -e
+good	test_rand_single.pl	3	142	-g -c -k
+good	test_rand_single.pl	3	142	-g -e -k
+good	test_rand_single.pl	3	142	-g -c -e -k
+good	test_rand_single.pl	4	117	
+good	test_rand_single.pl	4	117	-c
+good	test_rand_single.pl	4	117	-e
+good	test_rand_single.pl	4	117	-k
+good	test_rand_single.pl	4	117	-c -e
+good	test_rand_single.pl	4	117	-c -k
+good	test_rand_single.pl	4	117	-e -k
+good	test_rand_single.pl	4	117	-c -e -k
+good	test_rand_single.pl	4	117	-f
+good	test_rand_single.pl	4	117	-f -c
+good	test_rand_single.pl	4	117	-f -e
+good	test_rand_single.pl	4	117	-f -k
+good	test_rand_single.pl	4	117	-f -c -e
+good	test_rand_single.pl	4	117	-f -c -k
+good	test_rand_single.pl	4	117	-f -e -k
+good	test_rand_single.pl	4	117	-f -c -e -k
+good	test_rand_single.pl	4	117	-g
+good	test_rand_single.pl	4	117	-g -c
+good	test_rand_single.pl	4	117	-g -e
+good	test_rand_single.pl	4	117	-g -k
+good	test_rand_single.pl	4	117	-g -c -e
+good	test_rand_single.pl	4	117	-g -c -k
+good	test_rand_single.pl	4	117	-g -e -k
+good	test_rand_single.pl	4	117	-g -c -e -k
+good	test_rand_single.pl	5	128	
+good	test_rand_single.pl	5	128	-c
+good	test_rand_single.pl	5	128	-e
+good	test_rand_single.pl	5	128	-k
+good	test_rand_single.pl	5	128	-c -e
+good	test_rand_single.pl	5	128	-c -k
+good	test_rand_single.pl	5	128	-e -k
+good	test_rand_single.pl	5	128	-c -e -k
+good	test_rand_single.pl	5	128	-f
+good	test_rand_single.pl	5	128	-f -c
+good	test_rand_single.pl	5	128	-f -e
+good	test_rand_single.pl	5	128	-f -k
+good	test_rand_single.pl	5	128	-f -c -e
+good	test_rand_single.pl	5	128	-f -c -k
+good	test_rand_single.pl	5	128	-f -e -k
+good	test_rand_single.pl	5	128	-f -c -e -k
+good	test_rand_single.pl	5	128	-g
+good	test_rand_single.pl	5	128	-g -c
+good	test_rand_single.pl	5	128	-g -e
+good	test_rand_single.pl	5	128	-g -k
+good	test_rand_single.pl	5	128	-g -c -e
+good	test_rand_single.pl	5	128	-g -c -k
+good	test_rand_single.pl	5	128	-g -e -k
+good	test_rand_single.pl	5	128	-g -c -e -k
+good	test_rand_single.pl	6	100	
+good	test_rand_single.pl	6	100	-c
+good	test_rand_single.pl	6	100	-e
+good	test_rand_single.pl	6	100	-k
+good	test_rand_single.pl	6	100	-c -e
+good	test_rand_single.pl	6	100	-c -k
+good	test_rand_single.pl	6	100	-e -k
+good	test_rand_single.pl	6	100	-c -e -k
+good	test_rand_single.pl	6	100	-f
+good	test_rand_single.pl	6	100	-f -c
+good	test_rand_single.pl	6	100	-f -e
+good	test_rand_single.pl	6	100	-f -k
+good	test_rand_single.pl	6	100	-f -c -e
+good	test_rand_single.pl	6	100	-f -c -k
+good	test_rand_single.pl	6	100	-f -e -k
+good	test_rand_single.pl	6	100	-f -c -e -k
+good	test_rand_single.pl	6	100	-g
+good	test_rand_single.pl	6	100	-g -c
+good	test_rand_single.pl	6	100	-g -e
+good	test_rand_single.pl	6	100	-g -k
+good	test_rand_single.pl	6	100	-g -c -e
+good	test_rand_single.pl	6	100	-g -c -k
+good	test_rand_single.pl	6	100	-g -e -k
+good	test_rand_single.pl	6	100	-g -c -e -k
+good	test_rand_single.pl	7	109	
+good	test_rand_single.pl	7	109	-c
+good	test_rand_single.pl	7	109	-e
+good	test_rand_single.pl	7	109	-k
+good	test_rand_single.pl	7	109	-c -e
+good	test_rand_single.pl	7	109	-c -k
+good	test_rand_single.pl	7	109	-e -k
+good	test_rand_single.pl	7	109	-c -e -k
+good	test_rand_single.pl	7	109	-f
+good	test_rand_single.pl	7	109	-f -c
+good	test_rand_single.pl	7	109	-f -e
+good	test_rand_single.pl	7	109	-f -k
+good	test_rand_single.pl	7	109	-f -c -e
+good	test_rand_single.pl	7	109	-f -c -k
+good	test_rand_single.pl	7	109	-f -e -k
+good	test_rand_single.pl	7	109	-f -c -e -k
+good	test_rand_single.pl	7	109	-g
+good	test_rand_single.pl	7	109	-g -c
+good	test_rand_single.pl	7	109	-g -e
+good	test_rand_single.pl	7	109	-g -k
+good	test_rand_single.pl	7	109	-g -c -e
+good	test_rand_single.pl	7	109	-g -c -k
+good	test_rand_single.pl	7	109	-g -e -k
+good	test_rand_single.pl	7	109	-g -c -e -k
+good	test_rand_single.pl	8	150	
+good	test_rand_single.pl	8	150	-c
+good	test_rand_single.pl	8	150	-e
+good	test_rand_single.pl	8	150	-k
+good	test_rand_single.pl	8	150	-c -e
+good	test_rand_single.pl	8	150	-c -k
+good	test_rand_single.pl	8	150	-e -k
+good	test_rand_single.pl	8	150	-c -e -k
+good	test_rand_single.pl	8	150	-f
+good	test_rand_single.pl	8	150	-f -c
+good	test_rand_single.pl	8	150	-f -e
+good	test_rand_single.pl	8	150	-f -k
+good	test_rand_single.pl	8	150	-f -c -e
+good	test_rand_single.pl	8	150	-f -c -k
+good	test_rand_single.pl	8	150	-f -e -k
+good	test_rand_single.pl	8	150	-f -c -e -k
+good	test_rand_single.pl	8	150	-g
+good	test_rand_single.pl	8	150	-g -c
+good	test_rand_single.pl	8	150	-g -e
+good	test_rand_single.pl	8	150	-g -k
+good	test_rand_single.pl	8	150	-g -c -e
+good	test_rand_single.pl	8	150	-g -c -k
+good	test_rand_single.pl	8	150	-g -e -k
+good	test_rand_single.pl	8	150	-g -c -e -k
+good	test_rand_single.pl	9	138	
+good	test_rand_single.pl	9	138	-c
+good	test_rand_single.pl	9	138	-e
+good	test_rand_single.pl	9	138	-k
+good	test_rand_single.pl	9	138	-c -e
+good	test_rand_single.pl	9	138	-c -k
+good	test_rand_single.pl	9	138	-e -k
+good	test_rand_single.pl	9	138	-c -e -k
+good	test_rand_single.pl	9	138	-f
+good	test_rand_single.pl	9	138	-f -c
+good	test_rand_single.pl	9	138	-f -e
+good	test_rand_single.pl	9	138	-f -k
+good	test_rand_single.pl	9	138	-f -c -e
+good	test_rand_single.pl	9	138	-f -c -k
+good	test_rand_single.pl	9	138	-f -e -k
+good	test_rand_single.pl	9	138	-f -c -e -k
+good	test_rand_single.pl	9	138	-g
+good	test_rand_single.pl	9	138	-g -c
+good	test_rand_single.pl	9	138	-g -e
+good	test_rand_single.pl	9	138	-g -k
+good	test_rand_single.pl	9	138	-g -c -e
+good	test_rand_single.pl	9	138	-g -c -k
+good	test_rand_single.pl	9	138	-g -e -k
+good	test_rand_single.pl	9	138	-g -c -e -k
+good	test_rand_single.pl	10	118	
+good	test_rand_single.pl	10	118	-c
+good	test_rand_single.pl	10	118	-e
+good	test_rand_single.pl	10	118	-k
+good	test_rand_single.pl	10	118	-c -e
+good	test_rand_single.pl	10	118	-c -k
+good	test_rand_single.pl	10	118	-e -k
+good	test_rand_single.pl	10	118	-c -e -k
+good	test_rand_single.pl	10	118	-f
+good	test_rand_single.pl	10	118	-f -c
+good	test_rand_single.pl	10	118	-f -e
+good	test_rand_single.pl	10	118	-f -k
+good	test_rand_single.pl	10	118	-f -c -e
+good	test_rand_single.pl	10	118	-f -c -k
+good	test_rand_single.pl	10	118	-f -e -k
+good	test_rand_single.pl	10	118	-f -c -e -k
+good	test_rand_single.pl	10	118	-g
+good	test_rand_single.pl	10	118	-g -c
+good	test_rand_single.pl	10	118	-g -e
+good	test_rand_single.pl	10	118	-g -k
+good	test_rand_single.pl	10	118	-g -c -e
+good	test_rand_single.pl	10	118	-g -c -k
+good	test_rand_single.pl	10	118	-g -e -k
+good	test_rand_single.pl	10	118	-g -c -e -k

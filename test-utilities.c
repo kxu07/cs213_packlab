@@ -128,6 +128,19 @@ void decompress_test(void) {
 }
 
 
+void float3_test(void) {
+  printf("float3_test\n");
+  uint8_t sign_bits[] = {2};
+  uint8_t exp_bits[] = {127, 128};
+  uint8_t mant_bits[] = {0,0,0,0,0,24}; 
+  uint8_t output_data[8];
+  join_float_array_three_stream(&mant_bits[0], 6, &exp_bits[0], 2, &sign_bits[0], 1, &output_data[0], 8);  
+  for (int i=0; i<8;i++) {
+    printf("output_data[%d] = %x\n", i, output_data[i]);
+  }
+}
+
+
 
 int main(void) {
 
@@ -150,6 +163,9 @@ int main(void) {
     printf("ERROR: example_test_setup failed\n");
     return 1;
   }
+
+  float3_test();
+  printf("done with float3\n");
 
   int decrypt_result = decrypt_test();
   decompress_test();

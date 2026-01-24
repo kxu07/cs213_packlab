@@ -259,11 +259,13 @@ void join_float_array_three_stream(uint8_t* input_frac,
     uint32_t mantissa = 0;
     size_t mantissa_current_byte = i * 23 / 8;
     size_t mantissa_starting_bit = i * 23 % 8;
-    uint32_t bitdiff = 8 - mantissa_starting_bit;
+    uint32_t bitdiff = (8 - mantissa_starting_bit)%8;
+    //printf("mantissa: %x, mantissa_current_byte = %ld, mantissa_starting_bit = %ld, bitdiff = %d\n",mantissa, mantissa_current_byte, mantissa_starting_bit, bitdiff);
     // If mantissa starts in middle of byte
     if (mantissa_starting_bit > 0) {
-      uint32_t mask = 0xFF >> mantissa_starting_bit;
-      mantissa |= input_frac[mantissa_current_byte] & mask;
+      //uint32_t mask = 0xFF << mantissa_starting_bit ;
+      mantissa |= input_frac[mantissa_current_byte] >> mantissa_starting_bit;
+      //printf("partial mantissa up to next byte = %x\n", mantissa);
       mantissa_current_byte++;
     }
 
@@ -272,26 +274,36 @@ void join_float_array_three_stream(uint8_t* input_frac,
       mantissa |= input_frac[mantissa_current_byte] << (j * 8 + bitdiff);
       mantissa_current_byte++;
     }
+    //printf("mantissa after two full bytes + partial = %x\n", mantissa);
 
     // Read remaining bits if any
-    int remaining_bits = 23 - 16 - bitdiff;
+    int remaining_bits = 23 - 16 - (bitdiff);
     if (remaining_bits) {
-      mantissa |= input_frac[mantissa_current_byte] >> (8 - remaining_bits) << (16 + bitdiff);
+      //printf("mantissa_current_byte = %ld\n", mantissa_current_byte);
+      //printf("input_frac[mantissa_current_byte] = %x\n", input_frac[mantissa_current_byte]);
+      uint8_t mask = 0xFF >> (8-remaining_bits);
+      //printf("input byte masked: %x\n", input_frac[mantissa_current_byte] & mask);
+      mantissa |= ((uint32_t)(input_frac[mantissa_current_byte] & mask)) << (16 + bitdiff);
     }
+    //printf("final mantissa = %x\n", mantissa);
 
     // Write to output
     // Byte 0
-    output_data[i] = mantissa & 0xFF;
+    output_data[4*i] = mantissa & 0xFF;
+    //printf("output_data[%ld] = %x\n", i, output_data[i]);
     // Byte 1
-    output_data[i + 1] = (mantissa >> 8) & 0xFF;
+    output_data[4*i + 1] = (mantissa >> 8) & 0xFF;
+    //printf("output_data[%ld+1] = %x\n", i, output_data[i+1]);
     // Byte 2
-    output_data[i + 2] = mantissa >> 16;
-    output_data[i + 2] |= (input_exp[i] & 1) << 7;
+    output_data[4*i + 2] = mantissa >> 16;
+    output_data[4*i + 2] |= (input_exp[i] & 1) << 7;
+    //printf("output_data[%ld+2] = %x\n", i, output_data[i+2]);
     // Byte 3
-    output_data[i + 3] = input_exp[i] >> 1;
+    output_data[4*i + 3] = input_exp[i] >> 1;
+    //printf("output_data[%ld+3] = %x\n", i, output_data[i+3]);
     size_t sign_byte = i / 8;
     int sign_bit = i % 8;
-    output_data[i + 3] |= ((input_sign[sign_byte] >> sign_bit) & 1) << 7;
+    output_data[4*i + 3] |= ((input_sign[sign_byte] >> sign_bit) & 1) << 7;
   }
 }
 
